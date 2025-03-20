@@ -29,7 +29,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: OrionMobile-APK
-          path: build/app/outputs/flutter-apk/app-release.apkname: Build APK
+          path: build/app/outputs/flutter-apk/app-release.apk
 
 on:
   push:
