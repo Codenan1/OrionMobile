@@ -1,16 +1,16 @@
-// File: OrionMobile/lib/main.dart
+// File: orionmobile/lib/main.dart
 
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(OrionMobileApp());
+  runApp(orionmobileApp());
 }
 
-class OrionMobileApp extends StatelessWidget {
+class orionmobileApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Orion Mobile',
+      title: 'orion mobile',
       theme: ThemeData.dark().copyWith(
         primaryColor: Colors.blue,
         scaffoldBackgroundColor: Colors.black87,
